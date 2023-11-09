@@ -1,10 +1,17 @@
 import React from "react";
 
 import styles from "./Rate.module.scss";
-export const Rate = ({ onRate }) => (
+
+const SCORE = {
+    INLOVE: 9,
+    HAPPY: 7,
+    SAD: 3
+}
+
+export const Rate = ({ onRate, uuid }) => (
   <div className={styles.rate}>
-    <div className={styles.inLove} />
-    <div className={styles.happy} />
-    <div className={styles.sad} />
+    <button className={styles.inLove} onClick={ () => onRate(uuid, SCORE.INLOVE)}/>
+    <button className={styles.happy} onClick={ () => onRate(uuid, SCORE.HAPPY)} />
+    <button className={styles.sad} onClick={ () => onRate(uuid, SCORE.SAD)}/>
   </div>
 );

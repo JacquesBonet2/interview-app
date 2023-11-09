@@ -4,21 +4,49 @@
       "uuid": "18a4c2dc-ef9a-4430-9dc7-c3c63c70e7a1",
       "name": "Brewdog",
       "ibu": "30",
-      "score": 5.9523809523809526,
-      "nbRate": 21
+      "score": 7,
+      "nbRate": 32
     },
     {
       "uuid": "76a6ea48-e39d-41f3-ad64-354e29c7f17c",
       "name": "kwak",
-      "score": 5,
-      "nbRate": 30
+      "score": 6.701754385964913,
+      "nbRate": 57
     },
     {
       "uuid": "56ea12d8-390c-4e05-ac03-dbdea5bedb9b",
       "name": "Paix Dieu",
       "ibu": "24",
+      "score": 8.875,
+      "nbRate": 16
+    },
+    {
+      "uuid": "61fab223-805d-4068-82f1-bbe97d95c2bf",
+      "score": 5.666666666666665,
+      "nbRate": 27,
+      "name": "Beer3",
+      "ibu": "234"
+    },
+    {
+      "uuid": "2749ab62-d0ac-4150-8c03-77a5ab3f7d8f",
+      "score": 5.441860465116278,
+      "nbRate": 86,
+      "name": "Toto",
+      "ibu": "123"
+    },
+    {
+      "uuid": "06960353-ad40-4987-a0b7-b4b7cc189fa9",
       "score": 9,
-      "nbRate": 8
+      "nbRate": 5,
+      "name": "Toto3",
+      "ibu": "12222"
+    },
+    {
+      "uuid": "54981b10-dd2b-4b5b-ab9c-f8f43b4167cc",
+      "score": 6.12,
+      "nbRate": 25,
+      "name": "Maria",
+      "ibu": "111"
     }
   ]
 }

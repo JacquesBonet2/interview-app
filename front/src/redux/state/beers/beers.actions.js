@@ -7,13 +7,9 @@ export const fetchBeers = () => ({
   type: BeerActionTypes.BEERS_FETCH
 });
 
-export const setBeers = beers => ({
-  type: BeerActionTypes.BEERS_SET,
+export const fetchBeersSuccess = beers => ({
+  type: BeerActionTypes.BEERS_FETCH_SUCCESS,
   beers
-});
-
-export const fetchBeersSuccess = () => ({
-  type: BeerActionTypes.BEERS_FETCH_SUCCESS
 });
 
 export const fetchBeersFailure = () => ({
@@ -25,7 +21,26 @@ export const createBeer = beer => ({
   beer
 });
 
-export const setNewlyCreatedBeer = beer => ({
-  type: BeerActionTypes.BEERS_SET_NEW,
+export const createBeerSuccess = beer => ({
+  type: BeerActionTypes.BEERS_CREATE_SUCCESS,
   beer
 });
+
+export const createBeerFailure = () => ({
+  type: BeerActionTypes.BEERS_CREATE_FAILURE
+});
+
+export const updateBeerRate = (uuid, rate) => ({
+  type: BeerActionTypes.BEERS_UPDATE_RATE,
+  uuid, rate
+});
+
+export const updateBeerRateSucces = (beer) => ({
+  type: BeerActionTypes.BEERS_UPDATE_RATE_SUCCESS,
+  beer
+});
+
+export const updateBeerRateFailure = () => ({
+  type: BeerActionTypes.BEERS_UPDATE_RATE_FAILURE
+});
+

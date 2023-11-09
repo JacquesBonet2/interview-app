@@ -13,7 +13,7 @@ import "./App.scss";
 class App extends Component {
   render() {
     return (
-      <Provider store={store}>
+        <Provider store={store}>
         <Router history={history}>
           <div className="App">
             <header className="App-header">

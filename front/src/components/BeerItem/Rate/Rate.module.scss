@@ -7,6 +7,7 @@ $size: 3rem;
 }
 .inLove {
   background: url(../../../assets/svg/in-love.svg);
+  border-radius: 50%;
   height: $size;
   width: $size;
   cursor: pointer;
@@ -14,6 +15,7 @@ $size: 3rem;
 
 .happy {
   background: url(../../../assets/svg/happy.svg);
+  border-radius: 50%;
   height: $size;
   width: $size;
   cursor: pointer;
@@ -21,6 +23,7 @@ $size: 3rem;
 
 .sad {
   background: url(../../../assets/svg/sad.svg);
+  border-radius: 50%;
   height: $size;
   width: $size;
   cursor: pointer;

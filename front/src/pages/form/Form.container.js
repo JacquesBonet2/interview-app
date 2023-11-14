@@ -1,15 +1,11 @@
 import { connect } from "react-redux";
 import ListForm from "./Form.component";
-import {createDoc} from "../../redux/state/docs";
+import { createDoc } from "../../redux/state/docs";
 
-const mapStateToProps = state => {
-  return {
-  };
+const mapStateToProps = () => {
+  return {};
 };
 
 const mapDispatchToProps = { createDoc };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(ListForm);
+export default connect(mapStateToProps, mapDispatchToProps)(ListForm);

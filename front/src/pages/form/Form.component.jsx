@@ -23,7 +23,7 @@ const BeerForm = ({ createDoc }) => (
         }
         return errors;
       }}
-      onSubmit={(values, { setSubmitting }) => {
+      onSubmit={(values) => {
         createDoc( "/beers", values);
       }}
     >

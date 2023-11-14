@@ -15,7 +15,6 @@ export const Button = ({
       (type === "submit" && (
         <button
           onClick={onClick}
-          to={to}
           type={type}
           disabled={disabled}
           className={styles.button}

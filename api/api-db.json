@@ -4,21 +4,22 @@
       "uuid": "18a4c2dc-ef9a-4430-9dc7-c3c63c70e7a1",
       "name": "Brewdog",
       "ibu": "30",
-      "score": 7,
-      "nbRate": 32
+      "score": 6.038461538461538,
+      "nbRate": 52
     },
     {
       "uuid": "76a6ea48-e39d-41f3-ad64-354e29c7f17c",
       "name": "kwak",
-      "score": 6.701754385964913,
-      "nbRate": 57
+      "score": 5.344444444444444,
+      "nbRate": 90
     },
     {
+      "3": "",
       "uuid": "56ea12d8-390c-4e05-ac03-dbdea5bedb9b",
       "name": "Paix Dieu",
       "ibu": "24",
-      "score": 8.875,
-      "nbRate": 16
+      "score": 3.8149075625524724,
+      "nbRate": 48
     },
     {
       "uuid": "61fab223-805d-4068-82f1-bbe97d95c2bf",
@@ -29,8 +30,8 @@
     },
     {
       "uuid": "2749ab62-d0ac-4150-8c03-77a5ab3f7d8f",
-      "score": 5.441860465116278,
-      "nbRate": 86,
+      "score": 6.351351351351352,
+      "nbRate": 37,
       "name": "Toto",
       "ibu": "123"
     },
@@ -47,6 +48,69 @@
       "nbRate": 25,
       "name": "Maria",
       "ibu": "111"
+    },
+    {
+      "uuid": "94a435cc-b59a-465f-b32e-d971afc9443f",
+      "score": 9,
+      "nbRate": 1,
+      "name": "azerty",
+      "ibu": "123"
+    },
+    {
+      "uuid": "84dc2d69-a082-4854-93d3-aed707a13311",
+      "score": 9,
+      "nbRate": 1,
+      "name": "azerty2",
+      "ibu": "345"
+    },
+    {
+      "uuid": "16343b7a-2e58-44b0-abf7-520df7231d0b",
+      "score": 0,
+      "nbRate": 0,
+      "name": "azerty2",
+      "ibu": "345"
+    },
+    {
+      "uuid": "1e71fcbc-0840-4c5e-8fe3-896e0ab36dc0",
+      "score": 0,
+      "nbRate": 0,
+      "name": "azerty2",
+      "ibu": "34332"
+    },
+    {
+      "uuid": "95e5ea53-9f6b-4dc8-87d8-17fd46d32c9a",
+      "score": 0,
+      "nbRate": 0,
+      "name": "Azerty8",
+      "ibu": "12345"
+    },
+    {
+      "uuid": "b4b64004-3514-4b05-86e4-a23815f313bc",
+      "score": 0,
+      "nbRate": 0,
+      "name": "azerty3",
+      "ibu": "123456"
+    },
+    {
+      "uuid": "2b673ea0-6d2a-40f9-a0ee-0a7934b70884",
+      "score": 0,
+      "nbRate": 0,
+      "name": "azertyu6",
+      "ibu": "223456"
+    },
+    {
+      "uuid": "5c05d34f-9d07-4f0d-817d-72c78b9ea1e7",
+      "score": 9,
+      "nbRate": 1,
+      "name": "lookkiii",
+      "ibu": "9878"
+    },
+    {
+      "uuid": "09d8d451-999d-4b9f-a91f-20fab890eb6f",
+      "score": 9,
+      "nbRate": 1,
+      "name": "ssshshshshs",
+      "ibu": "32211"
     }
   ]
 }

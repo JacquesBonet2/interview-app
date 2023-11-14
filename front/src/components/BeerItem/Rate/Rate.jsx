@@ -8,10 +8,10 @@ const SCORE = {
     SAD: 3
 }
 
-export const Rate = ({ onRate, uuid }) => (
+export const Rate = ({ onRate, beer }) => (
   <div className={styles.rate}>
-    <button className={styles.inLove} onClick={ () => onRate(uuid, SCORE.INLOVE)}/>
-    <button className={styles.happy} onClick={ () => onRate(uuid, SCORE.HAPPY)} />
-    <button className={styles.sad} onClick={ () => onRate(uuid, SCORE.SAD)}/>
+    <button className={styles.inLove} onClick={ () => onRate(beer, SCORE.INLOVE)}/>
+    <button className={styles.happy} onClick={ () => onRate(beer, SCORE.HAPPY)} />
+    <button className={styles.sad} onClick={ () => onRate(beer, SCORE.SAD)}/>
   </div>
 );

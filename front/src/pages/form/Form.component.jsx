@@ -5,7 +5,7 @@ import { Button } from "../../components/Button";
 
 import styles from "./Form.module.scss";
 
-const BeerForm = ({ loading, createBeer }) => (
+const BeerForm = ({ createDoc }) => (
   <div className={styles.form}>
     <h2>Add a beer</h2>
     <Formik
@@ -24,7 +24,7 @@ const BeerForm = ({ loading, createBeer }) => (
         return errors;
       }}
       onSubmit={(values, { setSubmitting }) => {
-        createBeer(values);
+        createDoc( "/beers", values);
       }}
     >
       {({

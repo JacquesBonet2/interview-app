@@ -1,14 +1,13 @@
 import { connect } from "react-redux";
-import { createBeer } from "../../redux/state/beers";
 import ListForm from "./Form.component";
+import {createDoc} from "../../redux/state/docs";
 
 const mapStateToProps = state => {
   return {
-    loading: state.beers.loading
   };
 };
 
-const mapDispatchToProps = { createBeer };
+const mapDispatchToProps = { createDoc };
 
 export default connect(
   mapStateToProps,

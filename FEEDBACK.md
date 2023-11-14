@@ -13,7 +13,7 @@
 * beaucoup de modules npm ne sont plus à jour. Cela provoque beaucoup de warnings: modules utilisés non stable ou déprecated
 * obligé de relancer plusieurs fois la commande `yarn install` sinon quelques modules non installés: rxjs
 
-Avec ma version LTS `18.x` de `nodejs`, j'ai un plantage appli au lancement
+Avec la version LTS `18.x` de `nodejs`, j'ai un plantage appli au lancement
 
 ```
 Starting the development server...
@@ -59,10 +59,10 @@ En upgradant `react-script` en version `5.x` le problème disparait
 * N'utilise pas la plus récente des API basé sur les hook
 * le code n'est pas du tout générique et n'exploite pas les principes d'architecture REST qui permet de gerer de la meme facon toute ressource. Un exemple d'implémentation que j'avais fait sur un projet github ou par l'introduction d'un paramètre supplementaire ds l'action (le path de la resource) mon code des actions, middleware et reducer est conplètement générique: https://github.com/JacquesBonet/redux_pokemon/tree/master/src/crud
 
+La branche JacquesBonet_Enhanced exploite les principes d'architectures REST, permettant ainsi de developper un nouveau endpoint beaucoup pplus rapidement
 
 ## Qualité
 
-* Manque des règles eslint: codage, indentation, ...
 * pas de remonté client des erreurs
 * pas de tests
 

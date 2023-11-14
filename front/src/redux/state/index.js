@@ -1,16 +1,13 @@
-import { combineReducers } from "redux";
 import { fork } from "redux-saga/effects";
 
-import { beersReducer } from "./beers";
-import * as BeersSagas from "./beers/beers.sagas";
+import {} from "./docs";
+import {createBeersWatcher, fetchBeersIfNotWatcher, fetchBeersWatcher, updateBeersWatcher} from "./beers";
 
-export const rootReducer = combineReducers({
-  beers: beersReducer
-});
+export { factoryCombineReducers} from "./docs"
 
 export default function* rootSaga() {
-  yield fork(BeersSagas.fetchBeersIfNotWatcher);
-  yield fork(BeersSagas.fetchBeersWatcher);
-  yield fork(BeersSagas.createBeersWatcher);
-  yield fork(BeersSagas.updateBeersRateWatcher);
+  yield fork(fetchBeersIfNotWatcher);
+  yield fork(fetchBeersWatcher);
+  yield fork(createBeersWatcher);
+  yield fork(updateBeersWatcher);
 }

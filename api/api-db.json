@@ -10,21 +10,21 @@
     {
       "uuid": "76a6ea48-e39d-41f3-ad64-354e29c7f17c",
       "name": "kwak",
-      "score": 5.344444444444444,
-      "nbRate": 90
+      "score": 5.398373983739837,
+      "nbRate": 123
     },
     {
       "3": "",
       "uuid": "56ea12d8-390c-4e05-ac03-dbdea5bedb9b",
       "name": "Paix Dieu",
       "ibu": "24",
-      "score": 3.8149075625524724,
-      "nbRate": 48
+      "score": 4.751699455919392,
+      "nbRate": 68
     },
     {
       "uuid": "61fab223-805d-4068-82f1-bbe97d95c2bf",
-      "score": 5.666666666666665,
-      "nbRate": 27,
+      "score": 6.31914893617021,
+      "nbRate": 47,
       "name": "Beer3",
       "ibu": "234"
     },
@@ -111,6 +111,69 @@
       "nbRate": 1,
       "name": "ssshshshshs",
       "ibu": "32211"
+    },
+    {
+      "uuid": "cedf3570-d1b3-4c2a-9ccb-3e82f5fd18c0",
+      "score": 0,
+      "nbRate": 0,
+      "name": "NewBeer",
+      "ibu": "123"
+    },
+    {
+      "uuid": "4fcb3231-65ff-42d8-aedb-fcf094d94b38",
+      "score": 0,
+      "nbRate": 0,
+      "name": "newBeer",
+      "ibu": "1221"
+    },
+    {
+      "uuid": "1a843d0d-53e4-4c0f-a7c8-6ae5c625a6c1",
+      "score": 0,
+      "nbRate": 0,
+      "name": "NewBeer3",
+      "ibu": "12333"
+    },
+    {
+      "uuid": "080f8d40-4fdc-465c-84e7-d0f383ad9315",
+      "score": 0,
+      "nbRate": 0,
+      "name": "beers8",
+      "ibu": "987878"
+    },
+    {
+      "uuid": "387fff0e-afde-4f42-a900-b95c57fe099d",
+      "score": 0,
+      "nbRate": 0,
+      "name": "azszqq",
+      "ibu": "232"
+    },
+    {
+      "uuid": "5d9ecab1-79ca-48f6-a688-038e92988227",
+      "score": 0,
+      "nbRate": 0,
+      "name": "newbeers7",
+      "ibu": "34333"
+    },
+    {
+      "uuid": "68c5413e-24a1-4584-ba02-cd9e8d2b0c77",
+      "score": 0,
+      "nbRate": 0,
+      "name": "hdhfhffh",
+      "ibu": "2122"
+    },
+    {
+      "uuid": "18011e11-adbd-4b29-8f1c-e3ccd97a54fd",
+      "score": 0,
+      "nbRate": 0,
+      "name": "xvxvvccv",
+      "ibu": "2323"
+    },
+    {
+      "uuid": "78e0d36b-1674-4c4a-bc8e-049ca63461f0",
+      "score": 0,
+      "nbRate": 0,
+      "name": "kdfkfkfkfk",
+      "ibu": "3432"
     }
   ]
 }

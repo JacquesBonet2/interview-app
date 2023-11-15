@@ -13,7 +13,7 @@ export default function docs(state, paths, action, payloadName = false) {
 
   const { path } = action
 
-  if (action.type.indexOf('_REQUEST') > 0)
+  if (action.type.indexOf('FETCH_REQUEST') > 0)
     return { ...state, loading: true }
   if (action.type.indexOf('_FAILURE') > 0) return { ...state, loading: false }
 

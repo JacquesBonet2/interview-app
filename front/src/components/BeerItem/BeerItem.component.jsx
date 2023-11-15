@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./BeerItem.module.scss";
-import { Rate } from "./Rate/Rate";
+import { Rate } from "./Rate";
 import { RenderCount } from "../RenderCount";
 
 export const BeerItemComponent = ({ beer, onRate }) => (

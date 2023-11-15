@@ -10,7 +10,7 @@ const BeerForm = ({ createDoc }) => (
     <h2>Add a beer</h2>
     <Formik
       initialValues={{ name: "", ibu: "" }}
-      validate={values => {
+      validate={(values) => {
         let errors = {};
         if (!values.name) {
           errors.name = "Required";
@@ -24,7 +24,7 @@ const BeerForm = ({ createDoc }) => (
         return errors;
       }}
       onSubmit={(values) => {
-        createDoc( "/beers", values);
+        createDoc("/beers", values);
       }}
     >
       {({
@@ -34,7 +34,7 @@ const BeerForm = ({ createDoc }) => (
         handleChange,
         handleBlur,
         handleSubmit,
-        isSubmitting
+        isSubmitting,
       }) => (
         <form onSubmit={handleSubmit}>
           <Input

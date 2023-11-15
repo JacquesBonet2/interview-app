@@ -8,14 +8,14 @@ import {
   createDocSuccess,
   createDocFailure,
   updateDocFailure,
-  updateDocSucces
+  updateDocSucces,
 } from "./docs.actions";
 import { docItemsSelector } from "./docs.selectors";
 
 export function* fetchDocsIfNotWorker(path) {
   const items = yield select(docItemsSelector, path);
   if (items.length === 0) {
-    yield put(fetchDocs( path));
+    yield put(fetchDocs(path));
   }
 }
 
@@ -24,7 +24,7 @@ export function* fetchDocsWorker(path) {
     const { data } = yield call(getDocs, path);
     yield put(fetchDocsSuccess(path, data));
   } catch (e) {
-    yield put(fetchDocsFailure( path, []));
+    yield put(fetchDocsFailure(path, []));
   }
 }
 
@@ -38,7 +38,7 @@ export function* createDocsWorker(path, { payload }) {
   }
 }
 
-export function* updateDocsWorker( path, { payload }) {
+export function* updateDocsWorker(path, { payload }) {
   try {
     const { data } = yield call(putDoc, path, payload.uuid, payload);
     yield put(updateDocSucces(path, data));
@@ -46,4 +46,3 @@ export function* updateDocsWorker( path, { payload }) {
     yield put(updateDocFailure(path, payload));
   }
 }
-

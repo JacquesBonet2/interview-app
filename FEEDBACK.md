@@ -2,6 +2,9 @@ Cette branche exploite les principes d'architectures REST, permettant ainsi de d
 
 Voir répertoire redux/state/beers pour l'implementation du beers redux
 
+Nota: le endpoint post /beers/{uuid}/rate a été supprimé pour etre remplacé par un put /beers/{beer}
+Un patch aurait été mieux mais pas implémenté coté serveur.
+
 
 # Points que j'ai aimé de l'appli
 

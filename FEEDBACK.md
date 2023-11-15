@@ -62,7 +62,6 @@ En upgradant `react-script` en version `5.x` le problème disparait
 
 ## Qualité
 
-* Manque des règles eslint: codage, indentation, ...
 * pas de remonté client des erreurs
 * pas de tests
 
